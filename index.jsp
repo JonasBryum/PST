@@ -51,7 +51,7 @@
 
         function downloadCar() {
             const query = document.getElementById("searchQuery").value;
-            window.location.href = "http://localhost:8080/CarWebApp/rest/car/download";
+            window.location.href = "http://localhost:8080/CarWebApp/rest/car/download?query=" + query;
         }
     </script>
 </body>
